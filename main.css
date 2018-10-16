@@ -1,10 +1,8 @@
 body{
-
-  background-color: rgba(173, 154, 65, 0.45);
-
-
+  background: rgba(173, 154, 65, 0.45);
 }
-ul {
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -13,10 +11,10 @@ ul {
     border-radius: 6px;
 }
 
-li a, img{
+nav li a, img{
   float: left;
 }
-li a{
+nav li a{
 
     display: block;
     color: #DFD7B3;
@@ -28,7 +26,7 @@ li a{
     font-family: Arial;
 }
 
-li button {
+nav li button {
   float: right;
   display: block;
   color: #DFD7B3;
@@ -41,28 +39,27 @@ li button {
   font-family: Arial;
 
 }
-#boton-registro{
+nav #boton-registro{
 
   border: 2px solid #DFD7B3;
   border-radius: 3px;
 
 
   }
-#boton-ingresar{
+nav #boton-ingresar{
 
 
   border: 0px;
 
 }
 
-li img{
+nav li img{
   width: 100px;
   height: 50px;
 }
 
-
-li a:hover, button:hover {
+nav li a:hover, button:hover {
     background-color: #122450;
     text-decoration: underline;
 
-  }
+}
