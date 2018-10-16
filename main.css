@@ -47,10 +47,7 @@ nav #boton-registro{
 
   }
 nav #boton-ingresar{
-
-
   border: 0px;
-
 }
 
 nav li img{
@@ -61,5 +58,6 @@ nav li img{
 nav li a:hover, button:hover {
     background-color: #122450;
     text-decoration: underline;
+    border-radius: 3px;
 
 }
