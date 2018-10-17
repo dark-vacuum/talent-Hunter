@@ -1,0 +1,33 @@
+body{
+  background: rgba(173, 154, 65, 0.45);
+}
+
+.encabezado-registro {
+background-color: #AD9A41;
+height: 50px;
+font-family: Arial;
+font-size: 20px;
+}
+
+.encabezado-registro h1{
+  text-align: center;
+}
+
+#boton-cancelar {
+  float: right;
+  display: block;
+  color: #DFD7B3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: Transparent;
+  font-style: normal;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+#boton-cancelar:hover {
+    background-color: #122450;
+    text-decoration: underline;
+    border-radius: 3px;
+}
