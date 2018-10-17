@@ -1,0 +1,46 @@
+.contenido, #footer {
+  overflow: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.columna-uno, .columna-tres {
+  width: 46.95%;
+  float: left;
+  margin: 1%;
+  padding-right: 10px;
+}
+
+.columna-dos, .columna-cuatro {
+  width: 46.95%;
+  float: left;
+  margin: 1%;
+  padding-right: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+#footer {
+  color: #efefef;
+  padding: 0.5em 0;
+  margin: 1%;
+  border: 1px solid rgba(18, 36, 80, 0.25);
+  border-radius: 5px;
+}
+#footer p{
+  color: #122450;
+  text-align: center;
+}
+
+
+.article {
+  height: 15em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}

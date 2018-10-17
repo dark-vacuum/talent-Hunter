@@ -1,36 +1,12 @@
 body{
   background: rgba(173, 154, 65, 0.45);
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
-.encabezado-registro {
-background-color: #AD9A41;
-height: 50px;
-font-family: Arial;
-font-size: 20px;
-}
 
-.encabezado-registro h1{
-  text-align: center;
-}
 
-#boton-cancelar {
-  float: right;
-  display: block;
-  color: #DFD7B3;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  background-color: Transparent;
-  font-style: normal;
-  font-size: 20px;
-  font-family: Arial;
-}
-
-#boton-cancelar:hover {
-    background-color: #122450;
-    text-decoration: underline;
-    border-radius: 3px;
-}
 
 
 .main-content{
@@ -42,11 +18,31 @@ font-size: 20px;
   font-size: 20px;
   font-family: Arial;
 }
-.main-content p, input, label, fieldset, form{
-  text-align: center;
+
+.main-content p, input, label, form {
+text-align: center;
 }
 
 #registrar {
   height: 100px;
   width: 100px;
+}
+
+
+fieldset {
+  width: auto;
+  height: auto;
+  border: 1px solid #122450;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+legend {
+  background-color: rgba(205, 196, 150, 1);
+  border: 1px solid #122450;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: left;
+  text-transform: uppercase;
 }

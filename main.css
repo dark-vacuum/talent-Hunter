@@ -1,5 +1,8 @@
 body{
   background: rgba(173, 154, 65, 0.45);
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 nav ul {
@@ -11,10 +14,10 @@ nav ul {
     border-radius: 6px;
 }
 
-nav li a, img{
+nav li img, #talento,#cazador, #inicio{
   float: left;
 }
-nav li a{
+#talento,#cazador, #inicio{
 
     display: block;
     color: #DFD7B3;
@@ -38,16 +41,16 @@ nav li button {
   font-size: 20px;
   font-family: Arial;
 }
-nav #boton-registro{
+#boton-registro, #boton-cancelar{
 
   border: 2px solid #DFD7B3;
   border-radius: 3px;
 }
-
-  }
-nav #boton-ingresar{
-  border: 0px;
+#boton-ingresar{
+  border: none;
 }
+
+
 
 nav li img{
   width: 100px;
