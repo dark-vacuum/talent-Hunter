@@ -31,3 +31,22 @@ font-size: 20px;
     text-decoration: underline;
     border-radius: 3px;
 }
+
+
+.main-content{
+  width: 700px;
+  padding: 20px;
+  color: #122450;
+  margin: 30px auto 0 auto;
+  font-style: normal;
+  font-size: 20px;
+  font-family: Arial;
+}
+.main-content p, input, label, fieldset, form{
+  text-align: center;
+}
+
+#registrar {
+  height: 100px;
+  width: 100px;
+}
