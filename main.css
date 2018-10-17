@@ -61,3 +61,15 @@ nav li a:hover, button:hover {
     border-radius: 3px;
 
 }
+.main-content{
+  width: 700px;
+  padding: 20px;
+  color: #122450;
+  margin: 30px auto 0 auto;
+  font-style: normal;
+  font-size: 20px;
+  font-family: Arial;
+}
+.main-content h2, h3{
+  text-align: center;
+}
