@@ -35,8 +35,13 @@ h1{
   overflow: auto;
 }
 
-ul li p {
+ul li {
   text-align: center;
+  list-style:none;
+}
+
+p {
+  text-align:center;
 }
 h1 {
   margin-left: 10px;
@@ -62,4 +67,5 @@ h1 {
 }
 .columna-uno img, .columna-dos img, .columna-tres img, .columna-cuatro img{
   float: left;
+  padding-left: 10px;
 }
