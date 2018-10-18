@@ -1,3 +1,7 @@
+h1{
+  color: #122450;
+  text-align: center;
+}
 .contenido, #footer {
   overflow: auto;
   margin: auto;
@@ -7,10 +11,6 @@
   background: rgba(223, 215, 145, .40);
   border: 2px solid rgba(18, 36, 80, 0.25);
   border-radius: 6px;
-}
-h1{
-  text-align: center;
-  color: #122450;
 }
 .contenido{
   color: #122450;
@@ -27,6 +27,7 @@ h1{
   float: left;
   margin: 1%;
   padding-right: 10px;
+  overflow: auto;
 }
 
 p {
@@ -54,4 +55,7 @@ h1 {
   height: 15em;
   margin-bottom: 1em;
   background-color: #efefef;
+}
+.columna-dos img{
+  float: left;
 }
