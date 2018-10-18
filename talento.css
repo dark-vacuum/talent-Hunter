@@ -21,24 +21,23 @@ h1{
   color: #122450;
 }
 .columna-uno, .columna-tres {
-  width: 46.95%;
+  width: 45.95%;
   float: left;
   margin: 1%;
   padding-right: 10px;
 }
 
 .columna-dos, .columna-cuatro {
-  width: 46.95%;
+  width: 45.95%;
   float: left;
   margin: 1%;
   padding-right: 10px;
   overflow: auto;
 }
 
-p {
-  margin-left: 10px;
+ul li p {
+  text-align: center;
 }
-
 h1 {
   margin-left: 10px;
 }
@@ -61,6 +60,6 @@ h1 {
   margin-bottom: 1em;
   background-color: #efefef;
 }
-.columna-dos img{
+.columna-uno img, .columna-dos img, .columna-tres img, .columna-cuatro img{
   float: left;
 }
