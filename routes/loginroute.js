@@ -70,13 +70,6 @@ router.get('/profile', function (req, res, next) {
                     return next(err);
                 } else {
                     person = user
-                    /*talent["email"] = user.email
-                    talent.name = user.name
-                    talent.lastname = user.lastname
-                    talent.age = user.age
-                    talent.standing = user.standing
-                    talent.whichIs = user.whichIs
-                    talent.imgName = user.imgName*/
                 }
             }
         });
@@ -92,13 +85,15 @@ router.get('/profile', function (req, res, next) {
                         err.status = 400;
                         return next(err);
                     } else {
+                        console.log(person.imgName)
                         return res.send({
                             email: person.email,
                             name: person.name,
                             lastname: person.lastname,
                             age: person.age,
                             standing: 0,
-                            //imgName: "file:///Users/luisflores/udlap/applications_distribuited_environments/talent-Hunter/public/images/carlosCastelan.jpg" + person.imgName,
+                            imgName: person.imgName,
+                            whichIs: person.whichIs,
                             capabilities: user.capabilities,
                             activity: user.activity,
                             hours: user.hours,
@@ -121,6 +116,21 @@ router.get('/profile', function (req, res, next) {
                         err.status = 400;
                         return next(err);
                     } else {
+                        return res.send({
+                            email: person.email,
+                            name: person.name,
+                            lastname: person.lastname,
+                            age: person.age,
+                            standing: 0,
+                            imgName: person.imgName,
+                            whichIs: person.whichIs,
+                            business: user.business,
+                            coords: user.coords,
+                            proposes: user.proposes,
+                            fee: user.fee,
+                            hired: user.hired,
+                            has: user.has
+                        })
                         /*talent.business = user.business;
                         talent.coords = user.coords;
                         talent.proposes = user.proposes;
@@ -133,6 +143,12 @@ router.get('/profile', function (req, res, next) {
     }
     /*console.log(talent)
     return res.send(talent)*/
+})
+
+router.get("/images", function(req, res, next) {
+    var image = req.query.image
+    console.log(req.query.image)
+    res.sendFile(image, { root: './public/images' })
 })
 
 
