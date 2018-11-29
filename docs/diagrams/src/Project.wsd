@@ -1,0 +1,22 @@
+@startuml Project
+
+skinparam classAttributeIconSize 0
+
+class Project {
+    {static} {field} - name : String
+    {field} - startDate : Date
+    {field} - endDate : Date
+    --
+    .. Setters ..
+    {method} + setName(String)
+    {method} + setStartDate(Date)
+    {method} + setEndDate(Date)
+    .. Getters ..
+    {method} + getName() : String
+    {method} + getStartDate() : Date
+    {method} + getEndDate() : Date
+}
+
+hide Project circle
+
+@enduml

@@ -1,0 +1,22 @@
+@startuml Hunter
+
+skinparam classAttributeIconSize 0
+
+class Hunter {
+    {field} - business : String
+    {field} - coords : String
+    {field} - fee : Double
+    --
+    .. Setters ..
+    {method} + setBusiness(String)
+    {method} + setCoords(String)
+    {method} + setFee(Double)
+    .. Getters ..
+    {method} + getBusiness() : String
+    {method} + getCoords() : String
+    {method} + getFee() : Double
+}
+
+hide Hunter circle
+
+@enduml

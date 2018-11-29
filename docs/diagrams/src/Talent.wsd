@@ -1,0 +1,26 @@
+@startuml Talent
+
+skinparam classAttributeIconSize 0
+
+class Talent {
+    {field} - capabilities : [String]
+    {field} - activity : String
+    {field} - hours : {String: String}
+    {field} - cost : Double
+    --
+    .. Setters ..
+    {method} + setActivity(String)
+    {method} + setCost(Double)
+    .. Getters ..
+    {method} + getCapabilities() : [String]
+    {method} + getActivity() : String
+    {method} + getHours() : {String: String}
+    {method} + getCost() : Double
+    .. Methods ..
+    {method} + addCapability(String)
+    {method} + addHour(String, String)
+}
+
+hide Talent circle
+
+@enduml

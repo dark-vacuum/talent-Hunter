@@ -1,0 +1,24 @@
+@startuml Contract
+
+skinparam classAttributeIconSize 0
+
+class Contract {
+    {static} {field} - startDate : Date
+    {field} - endDate : Date
+    {field} - talentEvaluated : Boolean
+    {field} - hunterEvaluated : Boolean
+    --
+    .. Setters ..
+    {method} + setStartDate(Date)
+    {method} + setEndDate(Date)
+    .. Getters ..
+    {method} + getStartDate() : Date
+    {method} + getEndDate() : Date
+    .. Methods ..
+    {method} + expEvalTalent(Int)
+    {method} + expEvalHunter(Int)
+}
+
+hide Contract circle
+
+@enduml

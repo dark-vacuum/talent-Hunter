@@ -1,0 +1,22 @@
+@startuml Appointment
+
+skinparam classAttributeIconSize 0
+
+class Appointment {
+    {static} {field} - date : Date
+    {field} - hour : String
+    {field} - place : String
+    --
+    .. Setters ..
+    {method} + setDate(Date)
+    {method} + setHour(String)
+    {method} + setPlace(String)
+    .. Getters ..
+    {method} + getDate() : Date
+    {method} + getHour() : String
+    {method} + getPlace() : String
+}
+
+hide Appointment circle
+
+@enduml

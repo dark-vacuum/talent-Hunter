@@ -1,0 +1,33 @@
+@startuml Person
+
+skinparam classAttributeIconSize 0
+
+class Person {
+    {static} {field} -email : String
+    {field} - name : String
+    {field} - lastname : String
+    {field} - standing : {Date: Int}
+    {field} - age : Int
+    .. encrypted ..
+    {field} - password : String
+    --
+    .. Setters ..
+    {method} + setEmail(String)
+    {method} + setName(String)
+    {method} + setLastName(String)
+    {method} + setAge(Int)
+    {method} + setPassword(String)
+    .. Getters ..
+    {method} + getEmail() : String
+    {method} + getName() : String
+    {method} + getLastName() : String
+    {method} + getStanding() : {Date: Int}
+    {method} + getAge() : Int
+    {method} + getPassword() : String
+    .. Methods ..
+    {method} + addStanding(Int)
+}
+
+hide Person circle
+
+@enduml

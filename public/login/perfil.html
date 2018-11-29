@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <!--link type="text/css" rel="stylesheet" href="../home/main.css"-->
+    <link type="text/css" rel="stylesheet" href="login/perfil.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='login/perfil.js'></script>
+    <title>Perfil</title>
+</head>
+
+<body onLoad="registerEvents()">
+    <div class="container">
+        <header>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </header>
+        <main>
+            <div class="row">
+                <div class="left col-lg-4">
+                    <div class="photo-left">
+                        <img class="photo" id="foto" src="" />
+                    </div>
+                    <h4 class="name" id="nombre"></h4>
+                    <p class="info" id="actividad"></p>
+                    <p class="info" id="correo"></p>
+                    <div class="stats row">
+                        <div class="stat col-xs-4" style="padding-right: 50px;">
+                            <p class="desc-stat">Reputación</p>
+                            <p class="number-stat" id="reputacion"></p>
+                        </div></br>
+                        <div class="stat col-xs-4" style="padding-right: 50px;">
+                            <p class="desc-stat">Costo</p>
+                            <p class="number-stat" id="costo"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

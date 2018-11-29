@@ -1,0 +1,17 @@
+@startuml Talent Hunter
+
+'AutoInclude
+
+Person <|-- Talent
+Person <|-- Hunter
+
+Hunter "1" - "1..*" Project : proposes >
+Contract "1" -- "1" Project : for >
+
+Talent "1" -- "1" Hunter : has
+(Talent, Hunter) . Appointment
+
+Hunter "1" -- "1" Talent : hires
+(Hunter, Talent) . Contract
+
+@enduml

@@ -1,0 +1,13 @@
+{
+    "plantuml.exportFormat": "png",
+    "plantuml.diagramsRoot": "docs/diagrams/src",
+    "plantuml.exportOutDir": "docs/diagrams/out",
+    "plantuml.includes": [
+        "docs/diagrams/src/Person.wsd",
+        "docs/diagrams/src/Talent.wsd",
+        "docs/diagrams/src/Hunter.wsd",
+        "docs/diagrams/src/Project.wsd",
+        "docs/diagrams/src/Appointment.wsd",
+        "docs/diagrams/src/Contract.wsd"
+    ]
+}

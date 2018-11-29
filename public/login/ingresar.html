@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ingresar</title>
+  <link type="text/css" rel="stylesheet" href="ingresar.css">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><img src="../images/logo.png" alt=""></li>
+      <li><a id="inicio" href="../home/home.html">Inicio</a></li>
+      <li><a id="cazador" href="../hunter/cazadores.html">Cazador</a></li>
+      <li><a id="talento" href="../talent/talento.html">Talento</a></li>
+
+      <li><button type="button" id="boton-registro"><a href="../signup/registro.html">Registrar</a></button></li>
+      <li><button type="button" id="boton-ingresar"><a href="ingresar.html">Ingresar</a></button></li>
+    </ul>
+  </nav>
+
+  <div class="login-page">
+    <div class="form">
+      <form class="login-form" action="/login" method="post">
+        <input type="text" name="logemail" placeholder="E-mail" required="" />
+        <input type="password" name="logpassword" placeholder="Contraseña" required="" />
+        <button type="submit" id="boton-entrar">Entrar</button>
+        <p class="message">¿No tienes cuenta? <a href="../signup/registro.html">Crear cuenta</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
